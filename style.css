@@ -1,8 +1,50 @@
 a {color:darkorange;}
 
 .navitem {
-    padding:0 1em;
+    width:100%;
+    float:left;
+    margin-right:5%;
+     padding:0 4em;
+    color: darkorange;
+    text-decoration: none;
+    background-color: wite;
+    text-align: right;
+    font-size: 15px;
+    font-style: 
+        
 }
 
 h1 {color:orange;
+    text-align:center;
+    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+   font-weight: 600;
+    font-size: 80px;
+    
+}
+
+.firstword {
+    color: dark darkorange;
+    font-style: Antic;
+    
+    
+}
+
+.firstword {
+    color: darkorange;
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+    font-weight:100; 
+    font-size: 80px;
+}
+
+
+
+.first infoslot {
+    background-image: url(http://static.wixstatic.com/media/ff562f_86833ed45045f3e035f73ad72cb89dcf.jpg);
+    width: 1em;
+    height:2em;
+    font-size: 80px;
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+    font-weight: 200;
+    
+    
 }
