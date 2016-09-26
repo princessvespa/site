@@ -1,21 +1,46 @@
 a {color:darkorange;}
 
-.navitem {
-    width:100%;
-    float:left;
-    margin-right:5%;
-     padding:0 4em;
-    color: darkorange;
-    text-decoration: none;
-    background-color: wite;
-    text-align: right;
-    font-size: 15px;
-    font-style: 
+
+}
+
+
+.first logo
+
+{
+    
+    size
+}
+
+nav
+
+{
+    
+
+    padding: 3px;
+    border: 1px;
+    
         
 }
 
-h1 {color:orange;
-    text-align:center;
+li
+
+{
+    
+    color: darkorange;
+    background-color: 
+    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+    font-size: 14px;
+    border: 1px;
+    margin:5px;
+    padding:5px;
+    list-style:none;
+    text-decoration:none;
+    
+}
+
+h1 {
+    color:darkorange;
+    text-align:left;
     font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
    font-weight: 600;
     font-size: 80px;
