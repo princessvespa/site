@@ -1,10 +1,54 @@
-a {color:darkorange;}
+a {text-decoration:none;
+color: black;}
 
+body {
+    
+    
+    background-color: #B26B0A;
+    
+}
 
+.linkw
+
+{
+    
+    color: white;
+    
+}
+
+.fpara {
+    color:aqua;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    
 }
 
 
-.first logo
+    
+p {
+    
+color:black;
+text-align: centre;
+width: 50%;
+font-size: 34px;
+margin: auto;
+font-family:"Avenir Next";
+    
+}
+
+div
+{
+
+align-content: top left; 
+background-color: transparent;
+color: crimson; 
+padding: 1em;
+margin-top: 3em;
+margin-bottom: -3em;
+}
+
+
 
 {
     
@@ -22,54 +66,19 @@ nav
         
 }
 
-li
 
-{
-    
-    color: darkorange;
-    background-color: 
-    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-    font-size: 14px;
-    border: 1px;
-    margin:5px;
-    padding:5px;
-    list-style:none;
-    text-decoration:none;
-    
-}
 
 h1 {
-    color:darkorange;
-    text-align:left;
-    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-   font-weight: 600;
-    font-size: 80px;
+    color:white;
+    text-align:center;
+    font-family: 'Cookie', Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 111px;
+    padding-left: .05em;
+    padding-top: ;
+    margin-bottom: -0.4em;
+    margin-top: 2em;
     
 }
 
-.firstword {
-    color: dark darkorange;
-    font-style: Antic;
-    
-    
-}
 
-.firstword {
-    color: darkorange;
-    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
-    font-weight:100; 
-    font-size: 80px;
-}
-
-
-
-.first infoslot {
-    background-image: url(http://static.wixstatic.com/media/ff562f_86833ed45045f3e035f73ad72cb89dcf.jpg);
-    width: 1em;
-    height:2em;
-    font-size: 80px;
-    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
-    font-weight: 200;
-    
-    
-}
