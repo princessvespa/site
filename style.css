@@ -1,5 +1,6 @@
 a {text-decoration:none;
-color: black;}
+color: black;
+}
 
 body {
     
@@ -8,12 +9,48 @@ body {
     
 }
 
+ 
+
+
+.about
+
+{background-color: whitesmoke;}
+
+
+
+
+
+
+
+
 .image {
     
     align-content: left;
-    width: 40%;
+    width: 100%;
     
     
+
+
+
+    
+    
+}
+
+.circle {
+    
+
+    border-radius: 50%;
+    width: 55%;
+    margin-left: 19em;
+    margin-right: 1em;
+    display: inline;
+    margin-top: 6em;
+}
+
+
+.aboutpara:hover{
+    
+    color:darkorange;
 }
 
 .linkw
@@ -27,17 +64,19 @@ body {
 .aboutpara 
 
 {
+font-family: "Avenir Next";
+font-size: 65px;
+margin-right: 2em;
+border:1em;
+padding:0.5em;
+margin-top:1em;
+margin-left:2em;
+
     
     
 }
 
-.fpara {
-    color:aqua;
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    
-}
+
 
 
     
@@ -47,30 +86,14 @@ color:black;
 text-align: centre;
 width: 578px;
 font-size: 34px;
-margin:auto;
+margin-top:2em;
+    margin-left: 8em;
 font-family:"Avenir Next";
 
     
 }
 
-div
-{
 
-align-content: top left; 
-background-color: transparent;
-color: crimson; 
-padding: 1em;
-margin-top: 4em;
-margin-bottom: -3em;
-}
-
-
-
-
-{
-    
-    size
-}
 
 nav
 
@@ -79,6 +102,9 @@ nav
 
     padding: 3px;
     border: 1px;
+    font-family: "Avenir Next";
+    font-size: 18px;
+    text-align: right
     
         
 }
@@ -96,6 +122,71 @@ h1 {
     margin-bottom: -0.4em;
     margin-top: 1.3em;
     
+}
+
+.aboutpara #word1:hover{
+font-weight:bold;
+  
+
+}
+
+.aboutpara #word2:hover{
+font-weight:bold;
+
+}
+
+.aboutpara #word3:hover{
+font-weight:bold;
+
+}
+
+.aboutpara #word4:hover{
+font-weight:bold;
+
+}
+
+.aboutpara #word5:hover{
+font-weight:bold;
+    
+
+}
+
+
+.aboutpara #word6:hover{
+font-weight:bold;
+    
+
+}
+
+.aboutpara #word7:hover{
+
+text-decoration: line-through;
+  
+}
+
+
+.aboutpara #word1 {
+    
+    margin-top: 2em;
+    margin-left: 29em;
+    font-size: 24px;
+    display: inherit;
+    margin-top: -27em;
+}
+
+.aboutpara #word2 {
+    
+    display:inherit;
+    font-size: 120px;
+    margin-left: -1em;
+}
+
+
+.aboutpara #word3 {
+    
+    display:inherit;
+    font-size:90px;
+    margin-left: 2em;
 }
 
 @media screen and (max-width: 650px){
