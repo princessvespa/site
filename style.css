@@ -48,11 +48,6 @@ body {
 }
 
 
-.aboutpara:hover{
-    
-    color:darkorange;
-}
-
 .linkw
 
 {
@@ -83,11 +78,11 @@ margin-left:2em;
 p {
     
 color:black;
-text-align: centre;
+text-align: justify;
 width: 578px;
 font-size: 34px;
+margin: auto;
 margin-top:2em;
-    margin-left: 8em;
 font-family:"Avenir Next";
 
     
@@ -117,45 +112,15 @@ h1 {
     font-family: 'Cookie', Helvetica, sans-serif;
     font-weight: 600;
     font-size: 111px;
-    padding-left: .05em;
     padding-top: ;
     margin-bottom: -0.4em;
     margin-top: 1.3em;
     
 }
 
-.aboutpara #word1:hover{
-font-weight:bold;
-  
-
-}
-
-.aboutpara #word2:hover{
-font-weight:bold;
-
-}
-
-.aboutpara #word3:hover{
-font-weight:bold;
-
-}
-
-.aboutpara #word4:hover{
-font-weight:bold;
-
-}
-
-.aboutpara #word5:hover{
-font-weight:bold;
-    
-
-}
-
-
-.aboutpara #word6:hover{
-font-weight:bold;
-    
-
+.emphasize:hover {
+    font-weight:bold;
+    color:darkorange;
 }
 
 .aboutpara #word7:hover{
