@@ -9,12 +9,28 @@ body {
     
 }
 
+
+
+
+.about 
+
+{
+    
+    background-image: url("14362718_1370471146314947_5164563676143636356_o.jpg");
+    width: 100%;
+    height:500px;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: darkorange;
+    
+}
  
 
 
-.about
 
-{background-color: whitesmoke;}
+
 
 
 
@@ -28,13 +44,7 @@ body {
     align-content: left;
     width: 100%;
     
-    
-
-
-
-    
-    
-}
+    }
 
 .circle {
     
@@ -59,21 +69,36 @@ body {
 .aboutpara 
 
 {
+    
 font-family: "Avenir Next";
-font-size: 65px;
-margin-right: 2em;
-border:1em;
-padding:0.5em;
-margin-top:1em;
-margin-left:2em;
+font-size: 100px;
 
-    
-    
+
+}
+
+ul 
+
+{font-family: "Lucida Grande", Tahoma;
+font-size: 55px;
+list-style: none;
+color: darkorange;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color:grey;
+    letter-spacing:0.3em;
+    text-
+
 }
 
 
 
+.list
 
+{
+    
+    float: left;
+}
     
 p {
     
@@ -93,18 +118,14 @@ font-family:"Avenir Next";
 nav
 
 {
-    
-
     padding: 3px;
     border: 1px;
     font-family: "Avenir Next";
-    font-size: 18px;
-    text-align: right
-    
-        
+    font-size: 12px;
+    text-align:right;
+    color: darkorange;
+               
 }
-
-
 
 h1 {
     color:white;
@@ -118,40 +139,43 @@ h1 {
     
 }
 
-.emphasize:hover {
-    font-weight:bold;
-    color:darkorange;
-}
-
-.aboutpara #word7:hover{
-
-text-decoration: line-through;
-  
-}
-
-
-.aboutpara #word1 {
+.word1{
     
-    margin-top: 2em;
-    margin-left: 29em;
-    font-size: 24px;
-    display: inherit;
-    margin-top: -27em;
+    font-size: 70px;
+    text-emphasis: bold;
+    padding-bottom: 0.5em;
+    
 }
 
-.aboutpara #word2 {
+.word2{
     
-    display:inherit;
-    font-size: 120px;
-    margin-left: -1em;
+    font-size: 12px;
+    padding-top: -2em;
 }
 
 
-.aboutpara #word3 {
+.word3{
     
-    display:inherit;
-    font-size:90px;
-    margin-left: 2em;
+    margin-left: 4em;
+    font-size: 
+}
+
+.word4{
+    
+    
+}
+
+span {
+    
+    text-decoration: line-through
+        
+}
+
+
+ul: hover {
+    
+    background-color: hotpink;
+    background-color: hotpink;
 }
 
 @media screen and (max-width: 650px){
