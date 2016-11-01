@@ -6,7 +6,7 @@ body {
     
     
     background-color: #B26B0A;
-    
+    text-shadow: 2px 2px #000;
 }
 
 
@@ -20,23 +20,28 @@ body {
     width: 100%;
     height:500px;
     background-size:cover;
-    background-position: center center;
+    background-position:right;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: darkorange;
+    background-color: white;
     
 }
  
 
 
+.contact
 
-
-
-
-
-
-
-
+{
+    background-image: url("raven-1101882_1280.jpg");
+    width: 100%;
+    height:500px;
+    background-size:cover;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+    
+}
 
 
 .image {
@@ -82,12 +87,11 @@ ul
 font-size: 55px;
 list-style: none;
 color: darkorange;
-    font-weight: lighter;
+    font-weight: 3;
     font-variant: normal;
     text-transform: uppercase;
-    color:grey;
+    color:darkgray;
     letter-spacing:0.3em;
-    text-
 
 }
 
@@ -113,7 +117,19 @@ font-family:"Avenir Next";
     
 }
 
+.cheader
 
+{
+    
+    float:right;
+    font-family: 'Lucida Sans Typewriter';
+    margin-left: 0.3em;
+    margin-right: 0.6em;
+    margin-bottom: ;
+    margin-top: auto;
+    font-size: 100px; 
+    color: black;
+}
 
 nav
 
@@ -151,29 +167,128 @@ h1 {
     
     font-size: 12px;
     padding-top: -2em;
+    text-shadow: 1px 1px #000;
 }
 
 
 .word3{
     
-    margin-left: 8em;
-    font-size: 
+margin-left: 8em;
+font-size: 45px;
+padding-top: 0.4em;
+
 }
 
 .word4{
     
-    font-size: 9px;
-    padding-top: 1em;
+    font-size: 50px;
+    padding-top: ;
+    margin-left:-0.5em;
     
 }
 
-
-
-ul: hover {
+.word5{
     
-    background-color: hotpink;
+    font-size:15px;
+    margin-left: 14em;
+    padding-top:3em;
+    text-shadow: 1px 1px #000;
+    
+}
+
+.word6
+{
+    font-size: 55px;
+    padding-top: 1em;
+    margin-left: -0.7em;
    
 }
+
+#headerblog
+
+{
+    
+    font-size: 100px;
+}
+
+.blog
+
+
+{
+    
+    font-size: 20px;
+}
+.date {
+    
+    margin: auto; 
+}
+
+
+li:hover {
+    
+    color: darkorange;
+   
+}
+
+.contact
+
+{
+    font-size: 20px;
+}
+
+form
+
+
+{
+    
+    float: right;
+    margin-top: 6em; 
+    margin-left: 5em;
+    font-family: "Avenir Next";
+    font-size: 28px;
+    color: white; 
+    
+}
+input {
+    
+    width:400px;
+    padding: 1em 0.5em;
+    margin:2em 0;
+    color:aqua;
+    
+}
+
+
+#form input [type="message"]
+
+{
+    
+    height:300px;
+}
+
+{
+    
+    margin:auto;
+}
+
+
+
+#form input[type="submit"] {
+    
+    width:400px;
+    position:absolute;
+    margin-left:-2em;
+    color: orange;
+    font-weight:bold;
+    bottom: 20px;
+    font-family: "Avenir Next";
+    height:30px;
+    border-radius: 15px;
+    border:1p solid transparent;
+    background-color: #00B3F2;
+}
+
+
 
 @media screen and (max-width: 650px){
     p{
@@ -182,5 +297,18 @@ ul: hover {
     
     h1 {
         font-size:80px;
+    }
+}
+
+@media screen and (max-width: 665px){
+    .word1{
+        font-size: 35px;
+    }
+    .word3{
+        margin: auto;
+        padding-left: 2em;
+    }
+    .word5{
+        margin: auto;   
     }
 }
