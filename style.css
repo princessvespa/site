@@ -7,20 +7,52 @@ body {
     
     background-color: #B26B0A;
 
+
 }
+
 
 h2
 
 {
-    color: black;
-    font-family: 'Bungee Hairline', cursive;
-    font-size: px;
+    color: white;
+    font-family: "Avenir Next";
     text-align:center;
     font-weight: 600;
-    font-size: 111px;
+    font-size: 30px;
+    text-decoration: underline;
     padding-top: ;
     margin-bottom: -0.4em;
     margin-top: 1.3em;
+}
+
+h3
+
+{
+    
+text-align: center;
+ font-family: "Avenir Next";
+ font-size: 100px;
+ padding-top: 2em;
+ margin-top: -0.5eem;
+padding-bottom: 0.2em;
+    color: darkorange;
+    font-weight: 600;
+    
+}
+
+h4{
+    
+    font-family:"Avenier next";
+    color: darkorange;
+    float: left;
+}
+
+div.blogbox
+
+{
+    
+    background: transparent;
+    border: 1px dashed black;
 }
 
 .buttonwrapper
@@ -147,9 +179,18 @@ margin: auto;
 margin-top:2em;
 font-family:"Avenir Next";
 
+
+    
     
 }
 
+.main
+
+{
+    
+    margin-top: 2.4em;
+    font-size: 40px;
+}
 .cheader
 
 {
@@ -217,7 +258,7 @@ div.blogbox
 
 body.blogbackground{
     
-    background-color: floralwhite;;
+    background-color:  white;
     
     
 }
@@ -336,6 +377,7 @@ form
     font-family: 'Fredericka the Great', cursive;
     font-size: 28px;
     color: white; 
+    overflow: hidden;
     
 }
 input {
@@ -435,4 +477,11 @@ form {float:left
 @media screen and (max-width:441px){
     
     .cheader{10px;}
+}
+
+
+@media screen and (max-width: 590){
+    
+    form {float:left;
+    margin-left: -1em;}
 }
