@@ -6,11 +6,44 @@ body {
     
     
     background-color: #B26B0A;
-    text-shadow: 2px 2px #000;
+
 }
 
+h2
 
+{
+    color: black;
+    font-family: 'Bungee Hairline', cursive;
+    font-size: px;
+    text-align:center;
+    font-weight: 600;
+    font-size: 111px;
+    padding-top: ;
+    margin-bottom: -0.4em;
+    margin-top: 1.3em;
+}
 
+.buttonwrapper
+
+{
+    
+    text-align: center;
+}
+button
+
+{
+    
+    background-color: transparent;
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 20px;
+    text-align:center;
+    padding-top: ;
+    margin-bottom: -0.4em;
+    margin-top: 1.3em;
+    border: dashed;
+   position: relative;
+    top: 50%;
+}
 
 .about 
 
@@ -121,13 +154,13 @@ font-family:"Avenir Next";
 
 {
     
-    float:right;
-    font-family: 'Lucida Sans Typewriter';
+    float:left;
+    font-family: 'Fredericka the Great', cursive;
     margin-left: 0.3em;
     margin-right: 0.6em;
     margin-bottom: ;
     margin-top: auto;
-    font-size: 100px; 
+    font-size: 140px; 
     color: black;
 }
 
@@ -135,13 +168,69 @@ nav
 
 {
     padding: 3px;
+    float:left;
+    margin-top: 2.5em;
     border: 1px;
     font-family: "Avenir Next";
-    font-size: 14px;
+    font-size: 20px;
     text-align:right;
     color: darkorange;
                
+    
+    
 }
+
+
+#navbox
+
+{
+    margin-bottom: 2em;
+}
+
+
+
+.navitem
+
+{
+    
+    color: black;
+    font-family: "Avenier next";
+    padding: 0.3em;
+    
+}
+
+
+}
+#hblog
+
+{
+    font-family: 'Fredericka the Great', cursive;
+color:black;
+    font-size: 70px;
+}
+
+div.blogbox
+{
+    border: 2em;
+}
+
+
+body.blogbackground{
+    
+    background-color: floralwhite;;
+    
+    
+}
+
+.blog
+
+{
+    
+    font: "Avenier next";
+    font-size: 70px;
+    color: aliceblue;
+}
+
 
 h1 {
     color:white;
@@ -244,7 +333,7 @@ form
     float: right;
     margin-top: 6em; 
     margin-left: 5em;
-    font-family: "Avenir Next";
+    font-family: 'Fredericka the Great', cursive;
     font-size: 28px;
     color: white; 
     
@@ -252,18 +341,28 @@ form
 input {
     
     width:400px;
+    align-content: center;
     padding: 1em 0.5em;
     margin:2em 0;
-    color:aqua;
+    background-color: transparent;
+    border: solid black;
     
 }
+
+
+.input.message {
+    
+    height:400px;
+}
+
+.input.input
 
 
 #form input [type="message"]
 
 {
     
-    height:300px;
+    height:400px;
 }
 
 {
@@ -275,17 +374,17 @@ input {
 
 #form input[type="submit"] {
     
-    width:400px;
-    position:absolute;
-    margin-left:-2em;
-    color: orange;
-    font-weight:bold;
-    bottom: 20px;
-    font-family: "Avenir Next";
-    height:30px;
+    width:200px;
+    color: black;
+    display:block;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Fredericka the Great', cursive";
     border-radius: 15px;
-    border:1p solid transparent;
-    background-color: #00B3F2;
+    border:1p solid  transparent;
+    background-color: transparent;
+    margin-top;0px
 }
 
 
@@ -311,4 +410,29 @@ input {
     .word5{
         margin: auto;   
     }
+}
+
+@media screen and (max-width:619px){
+    
+    .cheader {font-size: 100px}
+}
+
+form {float:left
+    
+ 
+}
+    
+    @media screen and (max-width:598)
+
+        
+    {
+        
+        form {margin-left:2em;
+        }
+}
+
+
+@media screen and (max-width:441px){
+    
+    .cheader{10px;}
 }
